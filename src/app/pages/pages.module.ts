@@ -12,6 +12,7 @@ import { ComponentsModule } from '../components/components.module';
 
 
 import { ChartsModule } from 'ng2-charts';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ChartsModule } from 'ng2-charts';
   DashboardComponent  ,
   ProgressComponent,
   Grafica1Component,
-  PagesComponent
+  PagesComponent,
+  AccountSettingsComponent
 
   ],
 
@@ -29,7 +31,8 @@ import { ChartsModule } from 'ng2-charts';
     DashboardComponent  ,
     ProgressComponent,
     Grafica1Component,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
     
   ],
   imports: [
